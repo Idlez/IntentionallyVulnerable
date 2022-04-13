@@ -7,6 +7,12 @@ services:
     ports:
       - '1000:80'
     restart: always
+  gruyere:
+    image: 'karthequian/gruyere:latest'
+    hostname: 'gruyere'
+    ports:
+      - '8008:8008'
+    restart: always
   goatandwolf:
     image: 'webgoat/goatandwolf'
     hostname: 'goatandwolf'
