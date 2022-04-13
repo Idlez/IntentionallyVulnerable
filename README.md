@@ -1,5 +1,5 @@
 # IntentionallyVulnerable
-A single docker Compose file for a number of open source intentionally vulnerable applications. 
+A single docker Compose file for a number of open-source intentionally vulnerable applications. 
 Full credit goes to the respective authors
 
 **Included:**
