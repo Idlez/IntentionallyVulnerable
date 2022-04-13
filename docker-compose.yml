@@ -13,6 +13,15 @@ services:
     ports:
       - '8008:8008'
     restart: always
+  mutillidale:
+    image: 'citizenstig/nowasp'
+    hostname: 'mutillidale'
+    ports:
+      - '80:80'
+      - '3306:3306'
+    enviroment:
+      MYSQL_PASS: 'Chang3ME!'
+    restart: always
   goatandwolf:
     image: 'webgoat/goatandwolf'
     hostname: 'goatandwolf'
