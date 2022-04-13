@@ -19,7 +19,7 @@ services:
     ports:
       - '80:80'
       - '3306:3306'
-    enviroment:
+    environment:
       MYSQL_PASS: 'Chang3ME!'
     restart: always
   goatandwolf:
